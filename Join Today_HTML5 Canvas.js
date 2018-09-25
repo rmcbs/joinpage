@@ -6473,14 +6473,14 @@ p.nominalBounds = new cjs.Rectangle(69.5,49.3,15.9,12.8);
 		this.gotoAndPlay("tammyjoinidle")
 	}
 	this.frame_769 = function() {
-		playSound("TammyJoin2");
+		playSound("SignUpTapeMeasure");
 	}
-	this.frame_815 = function() {
+	this.frame_803 = function() {
 		this.gotoAndPlay("tammyjoinidle")
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(766).call(this.frame_766).wait(3).call(this.frame_769).wait(46).call(this.frame_815).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(766).call(this.frame_766).wait(3).call(this.frame_769).wait(34).call(this.frame_803).wait(1));
 
 	// Button
 	this.shape = new cjs.Shape();
@@ -6503,35 +6503,35 @@ p.nominalBounds = new cjs.Rectangle(69.5,49.3,15.9,12.8);
 	this.shape_4.graphics.f("#095E49").s().p("AwCR7QififAAjhQAAg0AIgxQg0gigwgoQiLh2hNiYQhPieAAisQAAitBPidQBNiYCLh2QCMh2C1hAQC7hDDNAAIAMAAIAEgJQA2iABihjQDQjQEmAAQEmAADRDQQCQCRAsC5IAUAAQCZAACNA7QCHA6BpBoQBpBpA5CHQA7CNABCZQgBCZg7CMQg5CIhpBpQhpBoiHA6IghANQgGDmjHCkQjMCqkhAAQkhAAjLiqQghgbgbgdQgjA8g1A0QifCfjgAAQjhAAieifg");
 	this.shape_4.setTransform(80.3,-116.4);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(816));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(804));
 
 	// Tammy - Tip O Tonuge
 	this.instance = new lib.TammyTipOTonuge();
 	this.instance.parent = this;
 	this.instance.setTransform(30.1,-79,1,1,0,0,0,4.5,3.3);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(742).to({rotation:7.7,x:29.5,y:-61.7},8).to({rotation:0,x:30.1,y:-79},8).wait(9).to({y:-21.7},24).to({y:-79},24,cjs.Ease.cubicInOut).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(742).to({rotation:7.7,x:29.5,y:-61.7},8).to({rotation:0,x:30.1,y:-79},8).wait(9).to({y:-21.7},18).to({y:-79},18,cjs.Ease.cubicInOut).wait(1));
 
 	// Tammy - Tongue Marks
 	this.instance_1 = new lib.TammyTongueMarks();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(28.9,-49.6,1,1,0,0,0,3.1,25.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(742).to({regY:25.8,rotation:7.7,x:24.4,y:-32.8},8).to({regY:25.9,rotation:0,x:28.9,y:-49.6},8).wait(9).to({y:7.8},24).to({y:-49.6},24,cjs.Ease.cubicInOut).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(742).to({regY:25.8,rotation:7.7,x:24.4,y:-32.8},8).to({regY:25.9,rotation:0,x:28.9,y:-49.6},8).wait(9).to({y:7.8},18).to({y:-49.6},18,cjs.Ease.cubicInOut).wait(1));
 
 	// Tammy - Tongue
 	this.instance_2 = new lib.TammyTongue();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(28.8,-50.5,1,1,0,0,0,3.2,30.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(742).to({regX:3.3,rotation:7.7,x:24.5,y:-33.6},8).to({regX:3.2,rotation:0,x:28.8,y:-50.5},8).wait(9).to({y:6.9},24).to({y:-50.5},24,cjs.Ease.cubicInOut).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(742).to({regX:3.3,rotation:7.7,x:24.5,y:-33.6},8).to({regX:3.2,rotation:0,x:28.8,y:-50.5},8).wait(9).to({y:6.9},18).to({y:-50.5},18,cjs.Ease.cubicInOut).wait(1));
 
 	// Tammy - Body
 	this.instance_3 = new lib.TammyBody();
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(21,-2,1,1,0,0,0,21,23.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(742).to({regX:20.9,rotation:7.7,x:10.1,y:13.4},8).to({regX:21,rotation:0,x:21,y:-2},8).wait(9).to({y:55.3},24).to({y:-2},24,cjs.Ease.cubicInOut).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(742).to({regX:20.9,rotation:7.7,x:10.1,y:13.4},8).to({regX:21,rotation:0,x:21,y:-2},8).wait(9).to({y:55.3},18).to({y:-2},18,cjs.Ease.cubicInOut).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-77,-247,314.5,268.4);
@@ -6544,12 +6544,15 @@ p.nominalBounds = new cjs.Rectangle(-77,-247,314.5,268.4);
 	this.frame_766 = function() {
 		this.gotoAndPlay("sammyjoinidle")
 	}
+	this.frame_772 = function() {
+		playSound("SignUpScrew");
+	}
 	this.frame_815 = function() {
 		this.gotoAndPlay("sammyjoinidle")
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(766).call(this.frame_766).wait(49).call(this.frame_815).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(766).call(this.frame_766).wait(6).call(this.frame_772).wait(43).call(this.frame_815).wait(1));
 
 	// Button
 	this.shape = new cjs.Shape();
@@ -6641,12 +6644,15 @@ p.nominalBounds = new cjs.Rectangle(-1385.5,-19.5,989.5,92.2);
 	this.frame_766 = function() {
 		this.gotoAndPlay("perryjoinidle")
 	}
+	this.frame_771 = function() {
+		playSound("SignUpPliers");
+	}
 	this.frame_815 = function() {
 		this.gotoAndPlay("perryjoinidle")
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(766).call(this.frame_766).wait(49).call(this.frame_815).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(766).call(this.frame_766).wait(5).call(this.frame_771).wait(44).call(this.frame_815).wait(1));
 
 	// Window
 	this.shape = new cjs.Shape();
@@ -6758,19 +6764,22 @@ p.nominalBounds = new cjs.Rectangle(-26.1,-18.4,57,83.8);
 	this.frame_766 = function() {
 		this.gotoAndPlay("heidijoinidle")
 	}
-	this.frame_839 = function() {
+	this.frame_769 = function() {
+		playSound("SignUpHammer");
+	}
+	this.frame_822 = function() {
 		this.gotoAndPlay("heidijoinidle")
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).wait(766).call(this.frame_766).wait(73).call(this.frame_839).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(766).call(this.frame_766).wait(3).call(this.frame_769).wait(53).call(this.frame_822).wait(1));
 
 	// Layer_2
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#3F3219").s().p("AkzShQjSgnhkAAQDLmnAfv2QAJk9gIlSIgKkTIK6AAQgQQ2CiLqQAzDpA/CtQAfBWAVAoQhFAVhwAVQjfArjWACIgEAAQhkAAjLglg");
 	this.shape.setTransform(-30.5,-24.5,0.827,0.827,0,0,180);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(840));
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(823));
 
 	// Layer_1
 	this.movieClip_2 = new lib.HeidiBody();
@@ -6778,7 +6787,7 @@ p.nominalBounds = new cjs.Rectangle(-26.1,-18.4,57,83.8);
 	this.movieClip_2.parent = this;
 	this.movieClip_2.setTransform(3.1,54.9,0.998,0.998,-19.5,0,0,8.1,51.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.movieClip_2).wait(177).to({regY:51.5,rotation:-10.1,x:3.2,y:55.1},7).to({regY:51.4,rotation:-19.5,x:3.1,y:54.9},7).wait(576).to({scaleX:1,scaleY:1,rotation:37.2,x:3.2,y:55},35).to({scaleX:1,scaleY:1,rotation:-19.5,x:3.1,y:54.9},37,cjs.Ease.cubicInOut).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.movieClip_2).wait(177).to({regY:51.5,rotation:-10.1,x:3.2,y:55.1},7).to({regY:51.4,rotation:-19.5,x:3.1,y:54.9},7).wait(576).to({scaleX:1,scaleY:1,rotation:37.2,x:3.2,y:55},28).to({scaleX:1,scaleY:1,rotation:-19.5,x:3.1,y:54.9},27,cjs.Ease.cubicInOut).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-81.5,-125.5,107,202.2);
@@ -7018,13 +7027,13 @@ p.nominalBounds = new cjs.Rectangle(0.2,0,142.9,351.7);
 	this.nextbtn_join = new lib.rightarrow();
 	this.nextbtn_join.name = "nextbtn_join";
 	this.nextbtn_join.parent = this;
-	this.nextbtn_join.setTransform(943.7,313.2);
+	this.nextbtn_join.setTransform(1118.7,313.2);
 	new cjs.ButtonHelper(this.nextbtn_join, 0, 1, 2, false, new lib.rightarrow(), 3);
 
 	this.backbtn_join = new lib.leftarrow();
 	this.backbtn_join.name = "backbtn_join";
 	this.backbtn_join.parent = this;
-	this.backbtn_join.setTransform(228.1,341.4,1,1,0,0,0,28.1,28.2);
+	this.backbtn_join.setTransform(53.1,341.4,1,1,0,0,0,28.1,28.2);
 	new cjs.ButtonHelper(this.backbtn_join, 0, 1, 2, false, new lib.leftarrow(), 3);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.backbtn_join},{t:this.nextbtn_join}]}).wait(1));
@@ -8008,7 +8017,10 @@ lib.properties = {
 	manifest: [
 		{src:"sounds/JoinIntro.mp3", id:"JoinIntro"},
 		{src:"sounds/PropellerPlanePassBy.mp3", id:"PropellerPlanePassBy"},
-		{src:"sounds/TammyJoin2.mp3", id:"TammyJoin2"}
+		{src:"sounds/SignUpHammer.mp3", id:"SignUpHammer"},
+		{src:"sounds/SignUpPliers.mp3", id:"SignUpPliers"},
+		{src:"sounds/SignUpScrew.mp3", id:"SignUpScrew"},
+		{src:"sounds/SignUpTapeMeasure.mp3", id:"SignUpTapeMeasure"}
 	],
 	preloads: []
 };
