@@ -5552,14 +5552,14 @@ p.nominalBounds = new cjs.Rectangle(-77,-247,314.5,268.4);
 	// Layer_2 (mask)
 	var mask = new cjs.Shape();
 	mask._off = true;
-	mask.graphics.p("AowhiILsm3IF1J8IrsG3g");
-	mask.setTransform(-1.6,-3.6);
+	mask.graphics.p("AuAg7IWMneIF1J8IrtG3g");
+	mask.setTransform(-35.2,-3.6);
 
 	// Layer_1
 	this.sammy = new lib.Sammy();
 	this.sammy.name = "sammy";
 	this.sammy.parent = this;
-	this.sammy.setTransform(0,65.4,1,1,8.2,0,0,0,65.3);
+	this.sammy.setTransform(0,63.1,1,1,8.2,0,0,0,65.3);
 
 	var maskedShapeInstanceList = [this.sammy];
 
@@ -5567,10 +5567,10 @@ p.nominalBounds = new cjs.Rectangle(-77,-247,314.5,268.4);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.sammy).wait(560).to({regX:-0.1,rotation:-1},7).to({regX:0,rotation:8.2},8).wait(192).to({regX:-0.1,rotation:-67.3,x:-0.1,y:65.5},24).to({regX:0,rotation:8.2,x:0,y:65.4},24,cjs.Ease.cubicInOut).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.sammy).wait(560).to({y:65.4},0).to({regX:-0.1,rotation:-1},7).to({regX:0,rotation:8.2},8).wait(192).to({regX:-0.1,rotation:-67.3,x:-0.1,y:65.5},24).to({regX:0,rotation:8.2,x:0,y:65.4},24,cjs.Ease.cubicInOut).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,1.3,39.8,48.9);
+p.nominalBounds = new cjs.Rectangle(0,-1,39.9,51.2);
 
 
 (lib.PlaneJoin = function(mode,startPosition,loop) {
@@ -6185,7 +6185,7 @@ p.nominalBounds = new cjs.Rectangle(0.2,0,142.9,351.7);
 	this.PerryJoin.setTransform(42.6,259.4,0.592,0.592,0,0,0,0.3,0.1);
 
 	this.shape_21 = new cjs.Shape();
-	this.shape_21.graphics.f("#E9E9E9").s().p("AAADiIABBhgAAADiIgBhhIABhxIAADSgAAClCIgCFSg");
+	this.shape_21.graphics.f("#E9E9E9").s().p("AAADiIABBhgAgBCBIABhxIAClSIgCFSIAADSg");
 	this.shape_21.setTransform(235.5,317.3,0.581,0.581);
 
 	this.shape_22 = new cjs.Shape();
@@ -6197,7 +6197,7 @@ p.nominalBounds = new cjs.Rectangle(0.2,0,142.9,351.7);
 	this.shape_23.setTransform(231.4,315.4,0.581,0.581);
 
 	this.shape_24 = new cjs.Shape();
-	this.shape_24.graphics.f("#E9E9E9").s().p("AAADiIABBhgAAADiIgBhhIABhxIAADSgAAClCIgCFSg");
+	this.shape_24.graphics.f("#E9E9E9").s().p("AAADiIABBhgAgBCBIABhxIAClSIgCFSIAADSg");
 	this.shape_24.setTransform(229.2,317.3,0.581,0.581);
 
 	this.shape_25 = new cjs.Shape();
@@ -6209,7 +6209,7 @@ p.nominalBounds = new cjs.Rectangle(0.2,0,142.9,351.7);
 	this.shape_26.setTransform(225.1,315.3,0.581,0.581);
 
 	this.shape_27 = new cjs.Shape();
-	this.shape_27.graphics.f("#E9E9E9").s().p("AAADiIABBggAAADiIgBhhIABhxIAADSgAAClBIgCFRg");
+	this.shape_27.graphics.f("#E9E9E9").s().p("AAADiIABBggAgBCBIABhxIAClRIgCFRIAADSg");
 	this.shape_27.setTransform(223,317.2,0.581,0.581);
 
 	this.shape_28 = new cjs.Shape();
@@ -6221,7 +6221,7 @@ p.nominalBounds = new cjs.Rectangle(0.2,0,142.9,351.7);
 	this.shape_29.setTransform(87.7,315.4,0.581,0.581);
 
 	this.shape_30 = new cjs.Shape();
-	this.shape_30.graphics.f("#E9E9E9").s().p("AAADiIABBhgAAADiIgBhhIABhxIAADSgAAClCIgCFSg");
+	this.shape_30.graphics.f("#E9E9E9").s().p("AAADiIABBhgAgBCBIABhxIAClSIgCFSIAADSg");
 	this.shape_30.setTransform(85.6,317.3,0.581,0.581);
 
 	this.shape_31 = new cjs.Shape();
@@ -6233,7 +6233,7 @@ p.nominalBounds = new cjs.Rectangle(0.2,0,142.9,351.7);
 	this.shape_32.setTransform(81.5,315.4,0.581,0.581);
 
 	this.shape_33 = new cjs.Shape();
-	this.shape_33.graphics.f("#E9E9E9").s().p("AAADiIABBhgAAADiIgBhhIABhxIAADSgAAClCIgCFSg");
+	this.shape_33.graphics.f("#E9E9E9").s().p("AAADiIABBhgAgBCBIABhxIAClSIgCFSIAADSg");
 	this.shape_33.setTransform(79.3,317.2,0.581,0.581);
 
 	this.shape_34 = new cjs.Shape();
