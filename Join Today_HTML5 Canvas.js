@@ -7159,13 +7159,6 @@ p.nominalBounds = new cjs.Rectangle(-2,-128.3,135.8,332.1);
 	this.initialize(mode,startPosition,loop,{intro:0,danjoinidle:311});
 
 	// timeline functions:
-	this.frame_0 = function() {
-		this.joinhomebtn.addEventListener("click", fl_ClickToGoToWebPage_3);
-		
-		function fl_ClickToGoToWebPage() {
-			window.open("https://rmcbs.github.io", "_self");
-		}
-	}
 	this.frame_10 = function() {
 		playSound("JoinIntro");
 	}
@@ -7174,7 +7167,7 @@ p.nominalBounds = new cjs.Rectangle(-2,-128.3,135.8,332.1);
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(10).call(this.frame_10).wait(460).call(this.frame_470).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).wait(10).call(this.frame_10).wait(460).call(this.frame_470).wait(1));
 
 	// leye
 	this.instance = new lib.DanJoin_leye();
@@ -7254,6 +7247,7 @@ p.nominalBounds = new cjs.Rectangle(-0.4,0.2,143.20000000000002,350.5);
 		this.backbtn_join.addEventListener("click", fl_ClickToGoToWebPage);
 		this.nextbtn_join.addEventListener("click", fl_ClickToGoToWebPage_2);
 		this.Logo.addEventListener("click", fl_ClickToGoToWebPage_3);
+		this.Dan1.addEventListener("click", fl_ClickToGoToWebPage_4);
 		
 		function fl_ClickToGoToWebPage() {
 			window.open("https://rmcbs.github.io/radonpage", "_self");
@@ -7263,6 +7257,9 @@ p.nominalBounds = new cjs.Rectangle(-0.4,0.2,143.20000000000002,350.5);
 		}
 		function fl_ClickToGoToWebPage_3() {
 			window.open("https://www.completebasementsystems.net", "_self");
+		}
+		function fl_ClickToGoToWebPage_4() {
+			window.open("https://rmcbs.github.io", "_self");
 		}
 		
 		this.HeidiJoin.addEventListener("click", fl_MouseClickHandler.bind(this));
